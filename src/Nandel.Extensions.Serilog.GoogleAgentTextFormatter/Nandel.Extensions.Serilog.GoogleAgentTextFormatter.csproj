@@ -8,7 +8,7 @@
         <RootNamespace>Nandel.Extensions.Serilog</RootNamespace>
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.0.0-alpha.0</Version>
+        <Version>1.0.0-alpha.1</Version>
         <Authors>fernandosouza.eti@gmail.com</Authors>
         <PackageProjectUrl>https://github.com/nandel/Nandel.Extensions.Serilog.GoogleAgentTextFormatter</PackageProjectUrl>
         <RepositoryUrl>https://github.com/nandel/Nandel.Extensions.Serilog.GoogleAgentTextFormatter</RepositoryUrl>

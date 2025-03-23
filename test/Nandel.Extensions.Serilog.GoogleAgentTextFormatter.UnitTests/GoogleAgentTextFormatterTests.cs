@@ -21,8 +21,7 @@ public class GoogleAgentTextFormatterTests
             new MessageTemplateParser().Parse("Test message"),
             new List<LogEventProperty>
             {
-                new("Key1", new ScalarValue("Value1")),
-                new("Key2", new ScalarValue("Value2"))
+                new("simple", new ScalarValue("value")),
             });
 
         var output = new StringWriter();
