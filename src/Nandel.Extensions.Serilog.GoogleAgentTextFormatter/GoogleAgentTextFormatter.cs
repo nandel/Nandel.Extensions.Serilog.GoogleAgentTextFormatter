@@ -29,7 +29,7 @@ public class GoogleAgentTextFormatter : ITextFormatter
         // Labels
         output.Write( ", \"logging.googleapis.com/labels\": {");
         
-        output.Write($" \"message_template\": \"{logEvent.MessageTemplate.Text}\"");
+        output.Write($" \"message_template\": \"{EscapeJsonString(logEvent.MessageTemplate.Text)}\"");
         output.Write($", \"trace_id\": {GetNullableString(logEvent.TraceId)}"); // Maybe we can integrate with the property built in GCP?
         output.Write($", \"span_id\": {GetNullableString(logEvent.SpanId)}");// Maybe we can integrate with the property built in GCP?
         

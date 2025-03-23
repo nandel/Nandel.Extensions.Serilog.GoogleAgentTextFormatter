@@ -24,6 +24,14 @@ Log.Warning("{Level}, Serilog!", "Warning");
 Log.Error("{Level}, Serilog!", "Error");
 Log.Fatal("{Level}, Serilog!", "Fatal");
 
+// Templated With Json Forbidden Chars
+Log.Verbose("\"{Level}\", Serilog!", "Verbose");
+Log.Debug("\"{Level}\", Serilog!", "Debug");
+Log.Information("\"{Level}\", Serilog!", "Information");
+Log.Warning("\"{Level}\", Serilog!", "Warning");
+Log.Error("\"{Level}\", Serilog!", "Error");
+Log.Fatal("\"{Level}\", Serilog!", "Fatal");
+
 // Templated with Structured Object
 Log.Verbose("{@Game}, Serilog!", new Game("Split Fiction", 2025));
 Log.Debug("{@Game}, Serilog!", new Game("Baldur's Gate 3", 2023));
