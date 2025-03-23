@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E7C0E3C-4132-4DEC-B05C-E3F5E838B871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nandel.Extensions.Serilog.GoogleAgentTextFormatter", "src\Nandel.Extensions.Serilog.GoogleAgentTextFormatter\Nandel.Extensions.Serilog.GoogleAgentTextFormatter.csproj", "{F1A0B798-1D27-4AAE-8252-C66833051E2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0E458C85-ABA4-4676-9D6D-8887A5C7F765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nandel.Extensions.Serilog.GoogleAgentTextFormatter.UnitTests", "test\Nandel.Extensions.Serilog.GoogleAgentTextFormatter.UnitTests\Nandel.Extensions.Serilog.GoogleAgentTextFormatter.UnitTests.csproj", "{33D9F33D-7654-497E-9B91-A4BA52ECC3A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1A0B798-1D27-4AAE-8252-C66833051E2F} = {1E7C0E3C-4132-4DEC-B05C-E3F5E838B871}
+		{33D9F33D-7654-497E-9B91-A4BA52ECC3A8} = {0E458C85-ABA4-4676-9D6D-8887A5C7F765}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A0B798-1D27-4AAE-8252-C66833051E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A0B798-1D27-4AAE-8252-C66833051E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A0B798-1D27-4AAE-8252-C66833051E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A0B798-1D27-4AAE-8252-C66833051E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D9F33D-7654-497E-9B91-A4BA52ECC3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D9F33D-7654-497E-9B91-A4BA52ECC3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D9F33D-7654-497E-9B91-A4BA52ECC3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D9F33D-7654-497E-9B91-A4BA52ECC3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

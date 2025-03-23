@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>latestmajor</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Nandel.Extensions.Serilog</RootNamespace>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0-alpha.0</Version>
+        <Authors>fernandosouza.eti@gmail.com</Authors>
+        <PackageProjectUrl>https://github.com/nandel/Nandel.Extensions.Serilog.GoogleAgentTextFormatter</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/nandel/Nandel.Extensions.Serilog.GoogleAgentTextFormatter</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Serilog" Version="4.2.0" />
+    </ItemGroup>
+
+</Project>
